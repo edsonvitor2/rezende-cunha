@@ -1,0 +1,441 @@
+*{
+    margin: 0px;
+}
+
+.logo{
+    width: 40%;
+    position: relative;
+    left: 20%;
+}
+.logo img{
+    width: 100%;
+}
+
+body{
+    background-color: black;
+}
+.servicos {
+    background-image: url('back.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    padding-top: 150px;
+}
+.servicos h2{
+    position: relative;
+    left: 10%;
+    width: 40%;
+    text-align: initial;
+    color: white;
+    font-size: 20px;
+}
+.servicos button a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.servicos p{
+    position: relative;
+    left: 16%;
+    margin: 10px;
+    width: 20%;
+    color: #25D366;
+}
+.icone{
+    width: 40px;
+    border: solid;
+    height: 40px;
+}
+.servicos button a img{
+    width: 100%;
+}
+
+div.area{
+    background-color: black ;
+    width: 100%;
+    height: 750px;
+}
+
+div.area h1{
+    width: 70%;
+    position: relative;
+    left: 12%;
+    margin-top: 20px;
+    color: aliceblue;
+}
+div.area ul{
+    color: aliceblue;
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+div.area ul li{
+    color: aliceblue;
+    width: 26%;
+    height: 150px;
+    float: left;
+    background-color: #24201A;
+    margin: 10px;
+    list-style: none;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 1px #e1ba66;
+}
+.sobre{
+    width: 100%;
+    height: 350px;
+    padding-top: 150px;
+}
+.sobre h2{
+    color: aliceblue;
+    width: 50%;
+    position: relative;
+    left: 48%;
+    top: -35%;
+}
+.sobre div.back{
+    width: 20%;    
+    float: left;
+    margin-top:-200px ;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.sobre div img{
+    width: 100%;    
+}
+.sobre h2.t {
+    margin-top: 90px;
+    color: #e1ba66; 
+    margin-left: -180px;
+}
+.sobre p{
+    color: aliceblue;
+    width: 70%;
+    position: relative;
+    left: 10%;
+    top: -20%;
+    font-size: 20px;
+    text-align: justify;
+}
+.sobre img{
+    width: 80%;
+    margin-left: 8%;
+
+}
+footer{
+    background-color: #24201A;
+    width: 100%;
+}
+div.contato{
+height: 250px;
+}
+div.contato h1{
+    color: aliceblue;
+    padding-left: 43%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+hr.style-four {
+    width: 40%;
+    height: 12px;
+    margin-left: 30%;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.logo2{
+    width: 20%;
+    float: left;
+}
+.logo2 img{
+    width: 100%;
+}
+div.contato ul{
+    width: 40%;
+    margin-left: 30%;
+}
+div.contato ul li {
+    float: left;
+    width: 150px;
+    list-style: none;
+    padding: 10px;
+}
+div.contato ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px;
+}
+div.contato ul li img{
+    width: 30%;
+    float: left;
+}
+
+.politica{
+    position: relative;
+    left: 80%;
+    width: 15%;
+    padding: 0;
+    top: -130px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.politica a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.direitos-autorais{
+    padding-left: 40%;
+    color: aliceblue;
+    background-color: black;
+}
+.direitos-autorais p.f2 {
+    padding-left: 8%;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .cont{
+    position: relative;
+    top: -200px;
+  }
+  .pulsing-container {
+    display: inline-block;
+    animation: pulse 1.5s infinite;
+    margin-left: 11%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .pulsing-container button{
+    width: 300px;
+    border-radius: 25px;
+    background-color: #25D366;
+    padding-right: 20px;
+    padding: 10px;
+}
+.pulsing-container button img{
+    width: 7%;
+}
+
+.advogado {
+    background-image: url('./back2.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+}
+
+.advogado div img{
+    width: 25%;
+    margin-top: 110px;
+    float: left;
+}
+
+.advogado img{
+    width: 100%;
+}
+
+.advogado h1 {
+    position: relative;
+    color: #fff;
+    top: 20%;
+    left: 15%;
+    
+}
+
+.advogado h2{
+    color: #e1ba66;
+    position: relative;
+    top: 20%;
+    left: 15%;
+}
+.advogado p{
+    color: #fff;
+    margin-left: 15%;
+    padding-left: 25%;
+    padding-top: 13%;
+    width: 30%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .div-logo{
+        width: 30%;
+    }
+    .menu {
+        margin-left: 94%;
+    }
+    
+    .direitos-autorais{
+        padding-left: 35%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .div-logo{
+        width: 50%;
+    }
+    hr.style-four {
+        width: 55%;
+        height: 12px;
+        margin-left: 24%;
+        border: 0;
+        box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    }
+    .menu {
+        margin-left: 86%;
+    }
+    .servicos{
+        height: 200px;
+    }
+    .servicos h2{
+        top: -90px;
+        width: 70%;
+        font-size: 18px;
+    }
+    .pulsing-container {
+        position: absolute;
+        display: inline-block;
+        animation: pulse 1.5s infinite;
+        margin-left: 11%;
+        margin-top: -70px;
+        margin-bottom: 15px;
+      }
+    .pulsing-container button{
+        width: 220px;
+        padding: 8px;
+    }
+    .pulsing-container button a{
+        font-size: 14px;
+    }
+    .servicos p{
+        width: 70%;
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    div.area h1{
+        width: 94%;
+        position: relative;
+        left: 3%;
+        margin-top: 20px;
+        color: aliceblue;
+        font-size: 17px;
+    }
+    div.area ul{
+        color: aliceblue;
+        width: 95%;
+        height: 500px;
+        margin-top: 30px;
+        height: 800px;
+        padding: 0;
+    }
+
+    div.area ul li{
+        color: aliceblue;
+        width: 40%;
+        height: 120px;
+        float: left;
+        background-color: #24201A;
+        border-radius: 55px;
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .logo2{
+        position: relative;
+        top: 95px;
+        width: 150px;
+        left: 10px;
+    }
+    .politica{
+        position: relative;
+        left: 70%;
+        width: 32%;
+        padding: 0;
+        top: -60px;
+        font-size: 12px;
+        color: aliceblue;
+    }
+    .politica a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    div.contato h1{
+        color: aliceblue;
+        padding-left: 40%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    div.contato ul{
+        width: 90%;
+        margin-left: 2%;
+        height: 120px;
+        padding: 0;
+        
+    }
+    .insta{
+        position: absolute;
+        width: 110px;
+        left: 100px;
+    }
+    .whats{
+        position: absolute;
+        width: 110px;
+        left: 200px;
+    }
+    .email{
+        position: absolute;
+        width: 110px;
+        left: 100px;
+        margin-top:50px ;
+    }
+    .tiltok{
+        position: absolute;
+        width: 110px;
+        left: 200px;
+        margin-top:50px ;
+    }
+    div.contato ul li a {
+        float: left;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 5px;
+    }
+    div.contato ul li img{
+        width: 15%;
+        float: left;
+        padding-top: 3px;
+    }
+    .direitos-autorais{
+        padding-left: 16%;
+        color: aliceblue;
+        background-color: black;
+        font-size: 12px;
+    }
+    .direitos-autorais p.f2 {
+        padding-left: 18%;
+    }
+  }
