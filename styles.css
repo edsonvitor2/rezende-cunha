@@ -198,6 +198,7 @@ div.contato {
     background-color: #24201A;
 }
 div.contato h1{
+    padding: 20px;
     text-align: center;
     font-size: 22px;
 }
@@ -219,52 +220,78 @@ hr.style-four {
 }
 
 div.contato ul{
+    position: relative;
    list-style: none;
    display: flex;
-   width: 30%;
-   margin-left: 10%;
-   float: left;
+   width: 55%;
+   left: 20%;
+   top: -100px;
 }
 div.contato ul li {
     width: 25%;
-    margin: 10px;
+    display: flex;
+    padding: 10px;
 }
 div.contato ul li img{
-    width: 100%;
+    float: left;
+    width: 35%;
+}
+div.contato ul li a {
+  text-decoration: none;
+}
+div.contato ul li a p{
+    margin-top: 20px;
+    font-size: 22px;
+    display: block;
 }
 div.contato ul li p{
    display: none;
 }
-.direitos-autorais, .politica ,.politica a{
+
+div.politica{
     text-decoration: none;
     text-align: center;
-    border: solid;
-    width: 30%;
+    width: 20%;
+    position: relative;
+    left: 80%;
+    margin-top: -10%;
+}
+.direitos-autorais ,.politica a{
+    margin-top: 10%;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
 }
 
 div.background{
-    width: 100%;
+    width: 80%;
 }
 div.background img{
     width: 100%;
 }
 main.ad{
-    height: 600px;
+    height: 800px;
 }
-.privacidade{
+.logo3{
+    margin-top: -50px;
+}
+div.privacidade{
+    position: absolute;
     width: 50%;
-    text-align: center;
-    margin-left: 10%;
+    left: 40%;
+    top: 0%;
 }
+
 .privacidade h1{
-    font-size: 18px;
+    font-size: 26px;
+    margin-bottom: 20px;
 }
 .privacidade img{
     width: 80%;
 }
 
 .privacidade p{
-    font-size: 12px;
+    font-size: 18px;
     text-align: justify;
 }
 @media (max-width: 1250px) {
@@ -410,29 +437,42 @@ main.ad{
     .fundo4{
         display: none;
     }
+    div.sobre {
+        height: 550px;
+    }
     div.sobre h2{
+        text-align: left;
+        font-size: 22px;
+        margin-left: 0%;
         text-align: center;
-        font-size: 18px;
     }
     div.sobre div.back{
         display: none;
     }
+    div.sobre div.back img{
+        width: 100%;
+    }
     div.sobre p{
         text-align: justify;
-        font-size: 14px;
+        font-size: 16px;
         padding: 20px;
+        width: 90%;
+        margin-left: 0%;
     }
     div.sobre h2.t{
-        text-align: center;
-        font-size: 18px;
+        position: relative;
+        left: 0%;
+        font-size: 24px;
         color: #E1BA66;
+        width: 100%;
     }
-    
     
     div.contato {
         width: 100%;
+        background-color: #24201A;
     }
     div.contato h1{
+        padding: 20px;
         text-align: center;
         font-size: 22px;
     }
@@ -443,13 +483,11 @@ main.ad{
         margin-left: auto;
         height: 12px;
         border: 0;
-        box-shadow: inset 0 12px 12px -12px rgba(240, 240, 240, 0.5);
+        box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
     }
     
     .logo2{
-        width: 80%;
-        margin-right: auto;
-        margin-left: auto;
+        width: 100%;
     }
     .logo2 img{
         width: 100% ;
@@ -457,27 +495,47 @@ main.ad{
     
     div.contato ul{
        list-style: none;
-       display: flex;
-       width: 100%;
-       margin-left: -40px;
+       width: 55%;
+       left: 12%;
+       top: 0px;
     }
     div.contato ul li {
-        width: 25%;
-        margin: 10px;
+        width: 50%;
+        padding: 10px;
     }
     div.contato ul li img{
         width: 100%;
     }
+    div.contato ul li a {
+      text-decoration: none;
+      
+    }
+    div.contato ul li a p{
+        margin-top: 20px;
+        font-size: 22px;
+        display: none;
+    }
     div.contato ul li p{
        display: none;
     }
-    .direitos-autorais, .politica ,.politica a{
+    
+    div.politica{
         text-decoration: none;
         text-align: center;
+        width:100%;
+        margin-top: 5%;
+        margin-left: -80%;
+    }
+    .direitos-autorais ,.politica a{
+        margin-top: 5%;
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
     }
     
     div.background{
-        width: 100%;
+        width: 80%;
+        display: none;
     }
     div.background img{
         width: 100%;
@@ -485,22 +543,28 @@ main.ad{
     main.ad{
         height: 600px;
     }
-    .privacidade{
-        position: absolute;
-        top: 0.1%;
-        width: 50%;
-        left: 25%;
-        text-align: center;
+    .logo3{
+        margin-top: 0px;
+        margin-left: 18%;
     }
+    div.privacidade{
+        position: absolute;
+        width: 95%;
+        left: 2%;
+        top: 0%;
+    }
+    
     .privacidade h1{
-        font-size: 18px;
+        font-size: 26px;
+        margin-bottom: 20px;
+        text-align: center;
     }
     .privacidade img{
         width: 80%;
     }
     
     .privacidade p{
-        font-size: 12px;
+        font-size: 14px;
         text-align: justify;
     }
   }
